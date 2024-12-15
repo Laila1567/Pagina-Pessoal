@@ -1,0 +1,91 @@
+.InformaçãoPessoais {
+  display: flex; /* Usado para criar uma linha flexível entre o conteúdo */
+  align-items: center; /* Alinha verticalmente os itens ao centro */
+}
+
+#FotoComum {
+  width: 400px; /* Largura da imagem */
+  height: 200px; /* Altura da imagem */
+  border-radius: 30%; /* Bordas arredondadas na imagem */
+}
+
+p1 { /* p1 não é uma tag HTML válida, mas mantendo aqui para exemplo */
+  margin-left: 10px; /* Espaçamento à esquerda do texto */
+  font-size: 36px; /* Tamanho da fonte */
+}
+
+body {
+  background: linear-gradient(rgb(222, 195, 158), rgba(247, 231, 206)); /* Gradiente de fundo */
+  color: white; /* Cor do texto */
+  margin: 0; /* Remove o margin padrão do body */
+}
+
+section {
+  margin-bottom: 6rem; /* Espaçamento entre as seções */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 5rem; /* Espaçamento interno das seções */
+  border-bottom: 10px solid rgba(222, 195, 158, 0.555); /* Linha divisória */
+  background-color: rgba(0, 0, 0, 0.3); /* Fundo semi-transparente */
+}
+
+.hobbies {
+  display: flex; /* Usado para alinhar os itens em linha */
+}
+
+.Container-hobbies {
+  width: 150px; /* Largura do contêiner do hobby */
+  height: 200px; /* Altura do contêiner do hobby */
+  text-align: center; /* Alinha o texto ao centro */
+  margin: 30px; /* Margem ao redor dos contêineres */
+  color: palevioletred; /* Cor do texto */
+  background: white; /* Fundo branco */
+  margin-bottom: 2rem; /* Espaçamento inferior */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 2rem; /* Espaçamento interno */
+  border-bottom: 10px solid rgba(0, 0, 0, 0.3); /* Linha divisória inferior */
+}
+
+.Container-hobbies img {
+  width: 120px; /* Largura das imagens dentro do contêiner */
+  height: 150px; /* Altura das imagens dentro do contêiner */
+}
+
+table, th, td {
+  line-height: 2.5rem; /* Altura da linha na tabela */
+  border: 2px solid white; /* Bordas brancas na tabela */
+}
+
+.centro {
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+main {
+  width: 900px; /* Largura do conteúdo principal */
+  margin: 0 auto; /* Centraliza o conteúdo na página */
+}
+
+h3 {
+  font-family: "Brush Script MT", cursive; /* Fonte estilizada para os títulos */
+  font-size: 25px; /* Tamanho da fonte */
+  font-style: normal;
+  font-weight: 700; /* Peso da fonte */
+  line-height: 15px; /* Altura da linha */
+}
+
+p1 {
+  font-family: "Brush Script MT", cursive; /* Fonte estilizada para os textos */
+  font-size: 30px; /* Tamanho da fonte */
+  font-style: normal;
+  font-weight: 700; /* Peso da fonte */
+  line-height: 40px; /* Altura da linha */
+}
+
+h2 {
+  font-family: "Brush Script MT", cursive; /* Fonte estilizada para o título */
+  font-size: 30px; /* Tamanho da fonte */
+  font-style: normal;
+  font-weight: 700; /* Peso da fonte */
+  line-height: 40px; /* Altura da linha */
+  text-align: center; /* Centraliza o título */
+  color: white; /* Cor do título */
+}
